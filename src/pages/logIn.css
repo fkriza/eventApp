@@ -1,0 +1,49 @@
+.content1 {
+  display: grid;
+  grid-gap: 35%;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+
+.firstName {
+  width: 35%;
+  display: grid;
+  grid-gap: 30%;
+  height: 120%;
+}
+
+.first {
+  height: 120%;
+  border-style: solid;
+  border-width: 1%;
+  border-color: lightgray;
+}
+
+.clickButton {
+  width: 35%;
+  height: 115%;
+  font-size: 100%;
+  justify-self: left;
+}
+
+label {
+  font-family: "Lato", sans-serif;
+  font-size: 100%;
+  width: 40%;
+}
+
+.logButton {
+  width: 35%;
+  align-self: right;
+  border-radius: 2%;
+  background-color: rgb(64, 86, 122);
+  color: white;
+  font-size: 100%;
+  box-shadow: 0 1px 0 rgb(42, 68, 66), 0 5px 0 #444,
+    0 6px 6px rgba(0, 0, 0, 0.6);
+
+  font-family: "Lato", sans-serif;
+  height: 200%;
+  margin-right: 100%;
+  margin-top: 2%;
+}

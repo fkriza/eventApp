@@ -1,0 +1,27 @@
+.search {
+  display: grid;
+  grid-row-gap: 30px;
+  width: 80%;
+
+  font-family: "Lato", sans-serif;
+}
+
+.searchButton {
+  width: calc(100px + 15%);
+  margin-left: 0;
+  margin-right: 10px;
+  height: 50px;
+
+  background-color: rgb(65, 118, 224);
+  box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+.textBox {
+  width: calc(80px + 28%);
+  border: solid;
+  border-width: 1px;
+}
+
+label {
+  width: auto;
+}

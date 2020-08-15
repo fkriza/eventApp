@@ -1,0 +1,66 @@
+.Post {
+  background-color: #ede7e7;
+  display: grid;
+  grid-gap: 2%;
+  justify-self: center;
+}
+.postInfo {
+  justify-self: center;
+  margin-top: 2%;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+}
+p {
+  font-weight: bold;
+}
+.postPictureContainer {
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+}
+.postPicture {
+  width: 100%;
+}
+.profilePic1 {
+  border-radius: 50%;
+  height: 100%;
+  margin-top: 1%;
+}
+.info1 {
+  margin-left: 10%;
+}
+.user {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 0.1fr 0.02fr 1fr;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-left: 6%;
+  grid-gap: 1%;
+  height: 80%;
+  width: 80%;
+  font-family: "Lato", sans-serif;
+  font-size: 10%;
+  pointer-events: none;
+}
+
+.tags {
+  padding-top: 5%;
+  margin-left: 10%;
+  font-weight: normal;
+  justify-self: left;
+  font-family: "Lato", sans-serif;
+}
+.tg {
+  color: blue;
+}
+
+.postLato {
+  font-size: 70%;
+}
+
+.postButtons {
+  width: calc(10px + 110%);
+  pointer-events: none;
+}
