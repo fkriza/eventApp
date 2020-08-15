@@ -1,0 +1,46 @@
+body {
+  margin: 0%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
+
+.indexTitle {
+  font-size: larger;
+  justify-self: center;
+
+  font-family: "Lato", sans-serif;
+}
+.content {
+  margin-top: 5%;
+  display: grid;
+  grid-gap: 25%;
+}
+.indexButton {
+  justify-self: center;
+  width: 30%;
+  border-radius: 2%;
+  background-color: rgb(48, 57, 71);
+  color: white;
+  font-size: larger;
+  box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0, 0, 0, 0.6);
+
+  font-family: "Lato", sans-serif;
+  height: 95%;
+}
+
+.indexButton1 {
+  justify-self: center;
+  width: 30%;
+  border-radius: 2%;
+  background-color: rgb(48, 57, 71);
+  color: white;
+  font-size: larger;
+  box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0, 0, 0, 0.6);
+
+  font-family: "Lato", sans-serif;
+  height: 110%;
+}

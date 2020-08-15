@@ -1,0 +1,25 @@
+.layoutcontent {
+  top: 0;
+  display: grid;
+  grid-template-rows: 1fr -1fr 10fr;
+}
+.lContent1 {
+  display: grid;
+  grid-template-columns: calc(90px + 15%) 20fr 1fr;
+  grid-gap: 10px;
+}
+
+.children {
+  display: grid;
+  grid-gap: 1%;
+}
+
+.layDummy {
+  height: 80px;
+}
+
+#navBar {
+  position: fixed;
+  right: 0;
+  top: 10%;
+}

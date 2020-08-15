@@ -1,0 +1,18 @@
+.layoutcontent {
+  top: 0;
+  display: grid;
+  grid-template-rows: 1fr -1fr 10fr;
+}
+.lContent {
+  display: grid;
+  grid-template-columns: 6fr 1fr 25fr 1fr;
+}
+
+.children {
+  display: grid;
+  grid-gap: 1%;
+}
+
+.layDummy {
+  height: 80px;
+}

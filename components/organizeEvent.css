@@ -1,0 +1,26 @@
+.organize {
+  display: grid;
+  grid-gap: calc(5px+2%);
+  width: 80%;
+  box-sizing: border-box;
+
+  font-family: "Lato", sans-serif;
+}
+
+.organizeButton {
+  width: 40%;
+  margin-left: 25%;
+  height: 50%;
+  background-color: rgb(127, 148, 206);
+  box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+.textBox {
+  width: calc(40px + 35%);
+  border: solid;
+  border-width: 1px;
+}
+
+label {
+  width: auto;
+}

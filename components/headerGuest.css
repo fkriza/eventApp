@@ -1,0 +1,58 @@
+.headerContent {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 6fr 1.5fr 2fr 0.5fr;
+  background-color: white;
+  top: 0;
+  position: fixed;
+  border-bottom: 1%;
+  border-bottom-color: rgb(212, 212, 212);
+  border-bottom-style: groove;
+}
+
+.profilePicture {
+  align-self: center;
+  max-width: 80%;
+  max-height: 80%;
+  margin-left: 10px;
+}
+
+.leftHeader {
+  display: grid;
+  grid-template-columns: 0.33fr 1fr;
+  grid-gap: 1%;
+  margin-right: 15px;
+}
+
+.appName {
+  float: left;
+  font-weight: bold;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+}
+.bla {
+  justify-self: center;
+  margin-right: 1%;
+  width: 120%;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 1fr 0.7fr;
+  float: right;
+}
+
+.username {
+  display: flex;
+  font-weight: bold;
+  float: right;
+  margin-right: 10px;
+  font-family: "Lato", sans-serif;
+}
+.logOut {
+  margin-top: 8px;
+  pointer-events: none;
+  height: 70%;
+  text-align: auto;
+}
+.logOutText {
+  margin: 0;
+  align-self: auto;
+}
