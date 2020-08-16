@@ -21,6 +21,7 @@ p {
   font-weight: normal;
   border-top-style: solid;
   border-top-color: lightgray;
+<<<<<<< HEAD
   border-radius: 10px;
   background-color: rgb(153, 160, 252);
   height: 30px;
@@ -39,6 +40,13 @@ p {
   height: 30px;
   padding-left: 3%;
   padding-top: 7px;
+=======
+}
+.cm1 {
+  border-style: ridge;
+  background-color: white;
+  margin-top: 10%;
+>>>>>>> ea1e34712b029fca2bdfbe42d7ba9011a8313292
 }
 .cms1 {
   margin-left: 10%;
@@ -47,14 +55,21 @@ p {
 }
 .submitRec {
   display: grid;
+<<<<<<< HEAD
   grid-template-columns: 3fr 0.5fr 0.5fr;
   margin-left: 10%;
+=======
+  grid-template-columns: 6fr 0.1fr 0.5fr;
+>>>>>>> ea1e34712b029fca2bdfbe42d7ba9011a8313292
 }
 .submitButtonRec {
   height: 20px;
   margin-top: 10px;
   margin-bottom: 5%;
+<<<<<<< HEAD
   margin-left: 10px;
+=======
+>>>>>>> ea1e34712b029fca2bdfbe42d7ba9011a8313292
 }
 .postPicture {
   width: 100%;
