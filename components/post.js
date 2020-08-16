@@ -41,11 +41,28 @@ class Post extends React.Component {
             />
             <div class="dummy12"></div>
           </div>
+          <br />
           <div class="info">
-            <p class="info1">Location: {this.props.data.location}</p>
-            <p class="info1">Date and Time:{this.props.data.dateAndTime}</p>
-            <p class="tags">Tags: {this.props.data.tags}</p>
-            <p class="description">Description:{this.props.data.description}</p>
+            <div>
+              <span class="labelInfo">Location: </span>
+              <span class="info1">{this.props.data.location}</span>
+            </div>
+            <br></br>
+            <div>
+              <span class="labelInfo">Date and Time </span>
+              <span class="info1">{this.props.data.dateAndTime}</span>
+            </div>
+            <br></br>
+            <div>
+              <span class="labelInfo">Tags: </span>
+              <span class="info1">{this.props.data.tags}</span>
+            </div>
+            <br></br>
+            <div>
+              <span class="labelInfo">Description </span>
+              <span class="info1">{this.props.data.description}</span>
+            </div>
+            <br />
             <div class="buttons">
               <button class="postButton">
                 <p class="postLato">Subscribe</p>

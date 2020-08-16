@@ -71,9 +71,15 @@ p {
   height: 100%;
   margin-top: 1%;
 }
-.info1 {
+.labelInfo {
   margin-left: 10%;
   font-size: 80%;
+  font-style: italic;
+  color: rgb(7, 136, 125);
+}
+.info1 {
+  font-size: 80%;
+  font-weight: bold;
 }
 .user {
   width: 80%;
