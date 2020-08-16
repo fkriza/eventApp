@@ -4,9 +4,15 @@ class Post extends React.Component {
   constructor(props) {
     super(props)
     console.log("Logovi: " + props.data)
+    console.log(props.data.comments.length)
+    let first3 =
+      props.data.comments.length > 3
+        ? props.data.comments.slice(0, 3)
+        : props.data.comments
     this.state = {
       comment: "",
       comments: props.data.comments,
+      firstThreeComments: first3,
     }
   }
   updateLast(e) {
@@ -52,7 +58,7 @@ class Post extends React.Component {
               </button>
             </div>
             <div class="cms1">
-              {this.state.comments.map(user => (
+              {this.state.firstThreeComments.map(user => (
                 <p class="coments">{user}</p>
               ))}
             </div>
@@ -70,6 +76,13 @@ class Post extends React.Component {
                   this.setState({
                     comments: this.state.comments.concat(this.state.comment),
                     comment: "",
+                  })
+                  let first3 =
+                    this.state.comments.length > 3
+                      ? this.state.comments.slice(0, 3)
+                      : this.state.comments
+                  this.setState({
+                    firstThreeComments: first3,
                   })
                 }}
               >
