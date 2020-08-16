@@ -15,7 +15,7 @@ module.exports = {
             location: "Split",
             dateAndTime: "24.8.1997",
             tags: "#tag1 #tag2",
-            description: "This is my first",
+            description: "Trip to nature",
             comments: ["comment1"],
           },
           {

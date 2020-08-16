@@ -54,6 +54,8 @@
 
   height: 70%;
   text-align: auto;
+  border-radius: 10px;
+  background-color: rgb(238, 163, 77);
 }
 .logOutText {
   margin: 0;

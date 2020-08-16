@@ -20,9 +20,8 @@ p {
 .coments {
   font-weight: normal;
   border-top-style: solid;
-  border-top-color: lightgray;
-  border-radius: 10px;
-  background-color: rgb(153, 160, 252);
+  border-top-width: thin;
+  border-top-color: rgb(151, 167, 161);
   height: 20px;
   padding-top: 5px;
   padding-left: 3%;
@@ -43,7 +42,7 @@ p {
 }
 .cm1 {
   border-style: ridge;
-  background-color: white;
+  background-color: rgb(189, 178, 178);
   margin-top: 10%;
 }
 .cms1 {
@@ -56,12 +55,16 @@ p {
   grid-template-columns: 3fr 0.5fr 0.5fr;
   margin-left: 3%;
 }
+.cm1:focus {
+  background-color: white;
+}
 .submitButtonRec {
-  height: 20px;
-  margin-top: 30%;
+  height: calc(30px + 5%);
+  margin-top: 10%;
   margin-bottom: 5%;
   margin-left: 10px;
   border-radius: 10px;
+  background-color: rgb(238, 163, 77);
 }
 .postPicture {
   width: 100%;
@@ -137,7 +140,7 @@ p {
 
 .postButton {
   border-radius: 10px;
-  background-color: rgb(22, 187, 173);
+  background-color: rgb(241, 154, 55);
 }
 
 .cm1 {

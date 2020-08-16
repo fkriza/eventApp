@@ -74,6 +74,7 @@ class Post extends React.Component {
                 <p class="postLato">Follow</p>
               </button>
             </div>
+            <br />
             <div class="cms1">
               {this.state.firstThreeComments.map(user => (
                 <p class="coments">{user}</p>
