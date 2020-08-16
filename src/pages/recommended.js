@@ -35,7 +35,7 @@ function Recommended(props) {
   console.log("ll", postData)
   return (
     <div class="reContent">
-      <Layout location="recommended">
+      <Layout location="recommendedEvents">
         {postData.map(user => (
           <Post data={user} />
         ))}
