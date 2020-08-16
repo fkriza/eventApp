@@ -40,6 +40,11 @@ p {
   padding-left: 3%;
   padding-top: 7px;
 }
+.cm1 {
+  border-style: ridge;
+  background-color: white;
+  margin-top: 10%;
+}
 .cms1 {
   margin-left: 10%;
   margin-right: 10%;
