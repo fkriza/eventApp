@@ -71,7 +71,7 @@ class Post extends React.Component {
                 <p class="postLato">Recommend</p>
               </button>
               <button class="postButton">
-                <p class="postLato">Follow&nbsp;&nbsp;&nbsp;</p>
+                <p class="postLato">Follow</p>
               </button>
             </div>
             <div class="cms1">

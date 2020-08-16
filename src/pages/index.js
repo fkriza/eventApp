@@ -30,7 +30,7 @@ function FirstPage() {
           }
           class="indexButton"
         >
-          Guest
+          <span class="bottunText"> Guest </span>
         </button>
       </div>
     </div>

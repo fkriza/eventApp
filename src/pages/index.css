@@ -21,7 +21,8 @@ body {
 }
 .indexButton {
   justify-self: center;
-  width: 30%;
+  width: 25%;
+
   border-radius: 2%;
   background-color: rgb(48, 57, 71);
   color: white;
@@ -31,7 +32,9 @@ body {
   font-family: "Lato", sans-serif;
   height: 95%;
 }
-
+.bottunText {
+  font-size: 80%;
+}
 .indexButton1 {
   justify-self: center;
   width: 30%;

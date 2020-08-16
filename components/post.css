@@ -135,6 +135,11 @@ p {
   width: calc(10px + 110%);
 }
 
+.postButton {
+  border-radius: 10px;
+  background-color: rgb(22, 187, 173);
+}
+
 .cm1 {
   margin-top: 10px;
   margin-left: 10%;

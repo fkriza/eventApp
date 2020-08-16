@@ -1,7 +1,9 @@
 import React from "react"
 import "./post.css"
+import { graphql, useStaticQuery } from "gatsby"
+
 function Post({ data }) {
-  console.log({ data })
+  console.log("bbb", { data })
   return (
     <div class="Post">
       <div class="postInfo">
@@ -23,8 +25,28 @@ function Post({ data }) {
           <div class="dummy12"></div>
         </div>
         <div class="info">
-          <p class="info1">Location: Split</p>
-          <p class="info1">Date and Time: 20 00, 24. 10. 2019.</p>
+          <div class="info">
+            <div>
+              <span class="labelInfo">Location: </span>
+              <span class="info1">{data.posts[0].location}</span>
+            </div>
+            <br></br>
+            <div>
+              <span class="labelInfo">Date and Time </span>
+              <span class="info1">{data.posts[0].dateAndTime}</span>
+            </div>
+            <br></br>
+            <div>
+              <span class="labelInfo">Tags: </span>
+              <span class="info1">{data.posts[0].tags}</span>
+            </div>
+            <br></br>
+            <div>
+              <span class="labelInfo">Description </span>
+              <span class="info1">{data.posts[0].description}</span>
+            </div>
+          </div>
+          <br />{" "}
           <div class="buttons">
             <button class="postButton">
               <p class="postLato">Subscribe</p>
@@ -36,9 +58,6 @@ function Post({ data }) {
               <p class="postLato">Follow&nbsp;&nbsp;&nbsp;</p>
             </button>
           </div>
-          <p class="tags">
-            Tags: <a class="tg">#tg1</a> #tg2
-          </p>
         </div>
       </div>
     </div>
