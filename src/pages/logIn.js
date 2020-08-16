@@ -42,7 +42,10 @@ function Button(user) {
             ) {
               flag = true
               console.log("if:___", userData[i])
-              navigate("/recommended")
+
+              navigate("recommended", {
+                replace: false,
+              })
             }
           }
           if (!flag) alert("Error: Wrong username or password")
@@ -73,9 +76,6 @@ class LogIn extends React.Component {
     console.log("aaa", this.state.first, this.state.last, this.state.isUser)
     return (
       <div class="content1">
-        <Router>
-          <Recommended path="recommended" />
-        </Router>
         <div class="firstName">
           <label>Username: </label>
           <input

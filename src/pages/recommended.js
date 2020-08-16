@@ -10,7 +10,7 @@ import { Router, Link, navigate } from "@reach/router"
 import { isUndefined } from "util"
 function Recommended(props) {
   const data = useStaticQuery(graphql`
-    query MyQuery6 {
+    query MyQuery600 {
       site {
         siteMetadata {
           postInfo {
@@ -31,10 +31,11 @@ function Recommended(props) {
   const posts = data.site.siteMetadata.postInfo
 
   let postData = posts[0].posts
+  console.log("blaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
   console.log("ll", postData)
   return (
     <div class="reContent">
-      <Layout location="recommendedEvents">
+      <Layout location="recommended">
         {postData.map(user => (
           <Post data={user} />
         ))}
