@@ -39,7 +39,6 @@ class Post extends React.Component {
             <p class="tags">Tags: {this.props.data.tags}</p>
             <p class="description">Description:{this.props.data.description}</p>
             <div class="buttons">
-              <div />
               <button class="postButton">
                 <p class="postLato">Update</p>
               </button>
@@ -49,7 +48,6 @@ class Post extends React.Component {
               <button class="postButton">
                 <p class="postLato">Delete</p>
               </button>
-              <div />
             </div>
           </div>
           <div class="cms1">

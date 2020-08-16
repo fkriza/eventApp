@@ -26,7 +26,6 @@ function Post({ data }) {
           <p class="info1">Location: Split</p>
           <p class="info1">Date and Time: 20 00, 24. 10. 2019.</p>
           <div class="buttons">
-            <div />
             <button class="postButton">
               <p class="postLato">Subscribe</p>
             </button>
@@ -36,7 +35,6 @@ function Post({ data }) {
             <button class="postButton">
               <p class="postLato">Follow&nbsp;&nbsp;&nbsp;</p>
             </button>
-            <div />
           </div>
           <p class="tags">
             Tags: <a class="tg">#tg1</a> #tg2
