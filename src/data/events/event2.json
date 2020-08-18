@@ -1,0 +1,12 @@
+{
+  "slug": "eventMadrid",
+  "title": "Madrid meet",
+  "img": "",
+  "eventInfo": {
+    "dateAndTime": "das",
+    "location": "",
+    "description": "",
+    "tags": "#tag1 #tag",
+    "comments": ["alo", "alo"]
+  }
+}

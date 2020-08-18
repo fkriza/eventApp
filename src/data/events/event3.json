@@ -1,0 +1,12 @@
+{
+  "slug": "eventParis",
+  "title": "Paris meet",
+  "img": "",
+  "eventInfo": {
+    "dateAndTime": "",
+    "location": "",
+    "description": "",
+    "tags": "#tag1 #tag",
+    "comments": ["alo", "alo", "di si frane, dobar meet"]
+  }
+}

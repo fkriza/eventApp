@@ -1,0 +1,12 @@
+{
+  "slug": "eventTokyo",
+  "title": "Tokyo meet",
+  "img": "../../images/tokyo.jpg",
+  "eventInfo": {
+    "dateAndTime": "",
+    "location": "",
+    "description": "",
+    "tags": "#tag1 #tag",
+    "comments": ["alo", "alo"]
+  }
+}
