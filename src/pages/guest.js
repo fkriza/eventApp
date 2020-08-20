@@ -12,16 +12,18 @@ import { Router, Link, navigate } from "@reach/router"
 function Recommended(props) {
   const data = useStaticQuery(graphql`
     query MyQuery7 {
-      site {
-        siteMetadata {
-          postInfo {
-            password
-            username
-            posts {
+      allEventsJson {
+        edges {
+          node {
+            slug
+            id
+            title
+            img
+            eventInfo {
+              location
               comments
               dateAndTime
               description
-              location
               tags
             }
           }
@@ -29,14 +31,20 @@ function Recommended(props) {
       }
     }
   `)
-  const posts = data.site.siteMetadata.postInfo
+  const eventsData = data.allEventsJson.edges
   return (
     <div class="reContent">
       <Layout location="recommendedEvents">
-        {posts.map(user => (
-          <Post data={user} />
+        {eventsData.map(data => (
+          <Post data={data.node} />
         ))}
       </Layout>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   )
 }

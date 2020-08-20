@@ -12,16 +12,18 @@ import { isUndefined } from "util"
 function Recommended(props) {
   const data = useStaticQuery(graphql`
     query MyQuer1 {
-      site {
-        siteMetadata {
-          postInfo {
-            password
-            username
-            posts {
+      allEventsJson {
+        edges {
+          node {
+            slug
+            id
+            title
+            img
+            eventInfo {
+              location
               comments
               dateAndTime
               description
-              location
               tags
             }
           }
@@ -29,15 +31,14 @@ function Recommended(props) {
       }
     }
   `)
-  const posts = data.site.siteMetadata.postInfo
 
-  let postData = posts[0].posts
+  let postData = data.allEventsJson.edges
   console.log("ll", postData)
   return (
     <div class="reContent">
       <Layout location="recommendedEvents">
         {postData.map(user => (
-          <Post data={user} />
+          <Post data={user.node} />
         ))}
       </Layout>
     </div>

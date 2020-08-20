@@ -1,17 +1,17 @@
 import React from "react"
+import { Link } from "gatsby"
 import "./post.css"
 class Post extends React.Component {
   constructor(props) {
     super(props)
-    console.log("Logovi: " + props.data)
-    console.log(props.data.comments.length)
+
     let first3 =
-      props.data.comments.length > 3
-        ? props.data.comments.slice(0, 3)
-        : props.data.comments
+      props.data.eventInfo.comments.length > 3
+        ? props.data.eventInfo.comments.slice(0, 3)
+        : props.data.eventInfo.comments
     this.state = {
       comment: "",
-      comments: props.data.comments,
+      comments: props.data.eventInfo.comments,
       firstThreeComments: first3,
     }
   }
@@ -19,7 +19,7 @@ class Post extends React.Component {
     this.setState({ comment: e.target.value })
   }
   render() {
-    console.log(this.state.comments)
+    console.log("hello", this.props.data)
     return (
       <div class="Post">
         <div class="postInfo">
@@ -29,7 +29,9 @@ class Post extends React.Component {
               src="https://icon-library.net/images/user-image-icon/user-image-icon-4.jpg"
             />
             <div />
-            <p>fkriza</p>
+            <Link to={"/" + this.props.data.slug}>
+              <p>fkriza</p>
+            </Link>
           </div>
           <br />
 
@@ -37,7 +39,7 @@ class Post extends React.Component {
             <div class="dummy11"></div>
             <img
               class="postPicture"
-              src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              src="https://www.sportilus.com/uploads/articles/pikado-ukratko-o-pravilima-9df02.jpg"
             />
             <div class="dummy12"></div>
           </div>
@@ -45,49 +47,49 @@ class Post extends React.Component {
           <div class="info">
             <div>
               <span class="labelInfo">Location: </span>
-              <span class="info1">{this.props.data.location}</span>
+              <span class="info1">
+                {this.props.data.eventInfo.location}Split
+              </span>
             </div>
             <br></br>
             <div>
               <span class="labelInfo">Date and Time </span>
-              <span class="info1">{this.props.data.dateAndTime}</span>
+              <span class="info1">
+                12:00 AM{this.props.data.eventInfo.dateAndTime}
+              </span>
             </div>
             <br></br>
             <div>
               <span class="labelInfo">Tags: </span>
-              <span class="info1">{this.props.data.tags}</span>
+              <span class="info1">{this.props.data.eventInfo.tags}</span>
             </div>
             <br></br>
             <div>
               <span class="labelInfo">Description </span>
-              <span class="info1">{this.props.data.description}</span>
+              <span class="info1">
+                This is my first{this.props.data.eventInfo.description}
+              </span>
             </div>
             <br />
-            <div class="buttons">
-              <button class="postButton">
-                <p class="postLato">Subscribe</p>
-              </button>
-              <button class="postButton">
-                <p class="postLato">Recommend</p>
-              </button>
-              <button class="postButton">
-                <p class="postLato">Follow</p>
-              </button>
-            </div>
-            <br />
+
+            <hr class="crta" />
             <div class="cms1">
-              {this.state.firstThreeComments.map(user => (
+              {/* {this.state.firstThreeComments.map(user => (
                 <p class="coments">{user}</p>
-              ))}
+              ))} */}
+              Click to see comments...
             </div>
+            <br />
+            {/* <span class="leave">Leave your comment</span>
+            <br /> */}
             <div class="submitRec">
               <input
                 type="textarea"
-                id="cm1"
                 class="cm1"
                 placeholder="comment..."
                 onChange={e => this.setState({ comment: e.target.value })}
               />
+              <br />
               <button
                 class="submitButtonRec"
                 onClick={() => {
@@ -106,8 +108,21 @@ class Post extends React.Component {
               >
                 Submit
               </button>
-              <div />
+
+              <br />
             </div>
+            <div class="buttons">
+              <button class="postButton">
+                <p class="postLato">Subscribe</p>
+              </button>
+              <button class="postButton">
+                <p class="postLato">Recommend</p>
+              </button>
+              <button class="postButton">
+                <p class="postLato">Follow</p>
+              </button>
+            </div>
+            <br />
           </div>
         </div>
       </div>
