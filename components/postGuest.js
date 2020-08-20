@@ -29,9 +29,7 @@ class Post extends React.Component {
               src="https://icon-library.net/images/user-image-icon/user-image-icon-4.jpg"
             />
             <div />
-            <Link to={"/" + this.props.data.slug}>
-              <p>fkriza</p>
-            </Link>
+            <p>fkriza</p>
           </div>
           <br />
 
@@ -60,8 +58,8 @@ class Post extends React.Component {
             </div>
             <br></br>
             <div>
-              <span class="labelInfo">Tags: </span>
-              <span class="info1">{this.props.data.eventInfo.tags}</span>
+              <span class="labelInfo">Category: </span>
+              <span class="info1">{this.props.data.eventInfo.category}</span>
             </div>
             <br></br>
             <div>
@@ -73,12 +71,17 @@ class Post extends React.Component {
             <br />
 
             <hr class="crta" />
-            <div class="cms1">
-              {/* {this.state.firstThreeComments.map(user => (
+            <Link
+              to={"/" + this.props.data.slug}
+              style={{ textDecoration: "none" }}
+            >
+              <div class="cms1">
+                {/* {this.state.firstThreeComments.map(user => (
                 <p class="coments">{user}</p>
               ))} */}
-              Click to see comments...
-            </div>
+                Click to see comments...
+              </div>
+            </Link>
             <br />
             {/* <span class="leave">Leave your comment</span>
             <br /> */}

@@ -1,5 +1,7 @@
 import React from "react"
 import Layout from "../../components/layout"
+import { checkPropTypes } from "prop-types"
+import Comments from "../../components/comments"
 
 const EventTemplate = ({ data }) => {
   console.log("alala", data)
@@ -10,7 +12,12 @@ const EventTemplate = ({ data }) => {
 
   return (
     <Layout>
-      <h1>{eventData.title}</h1>
+      <div class="commentContainer">
+        <p class="commentTitle">Komentari</p>
+        {eventData.eventInfo.comments.map(comment => (
+          <Comments data={comment} />
+        ))}
+      </div>
     </Layout>
   )
 }
@@ -29,7 +36,7 @@ export const query = graphql`
             comments
             dateAndTime
             description
-            tags
+            category
           }
         }
       }

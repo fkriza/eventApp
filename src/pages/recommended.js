@@ -23,7 +23,7 @@ function Recommended(props) {
               comments
               dateAndTime
               description
-              tags
+              category
             }
           }
         }

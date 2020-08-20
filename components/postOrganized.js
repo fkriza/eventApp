@@ -60,8 +60,8 @@ class Post extends React.Component {
             </div>
             <br></br>
             <div>
-              <span class="labelInfo">Tags: </span>
-              <span class="info1">{this.props.data.eventInfo.tags}</span>
+              <span class="labelInfo">Category: </span>
+              <span class="info1">{this.props.data.eventInfo.category}</span>
             </div>
             <br></br>
             <div>

@@ -87,7 +87,7 @@ class searchEvent extends React.Component {
 
           <div class="searchEVent">
             <label>
-              Tags:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              Category:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
             </label>
             <br></br>
             <br />
