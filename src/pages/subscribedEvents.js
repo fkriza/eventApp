@@ -32,7 +32,7 @@ function Recommended(props) {
     }
   `)
   const eventsData = data.allEventsJson.edges
-
+  console.log(eventsData)
   return (
     <div class="reContent">
       <Layout location="subscribedEvents">
