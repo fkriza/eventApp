@@ -24,3 +24,9 @@
   right: 0;
   top: 10%;
 }
+
+@media only screen and (max-width: 400px) {
+  .lContent1 {
+    margin-left: 3%;
+  }
+}
