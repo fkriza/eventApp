@@ -2,7 +2,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: 6fr 1.5fr 2fr 0.5fr;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.795);
   top: 0;
   position: fixed;
   border-bottom: 1%;
@@ -55,9 +55,10 @@
   height: 70%;
   text-align: auto;
   border-radius: 10px;
-  background-color: rgb(238, 163, 77);
+  background-color: rgb(184, 33, 23);
 }
 .logOutText {
   margin: 0;
+  color: white;
   align-self: auto;
 }

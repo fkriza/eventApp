@@ -8,20 +8,26 @@
 
 .searchButton {
   width: calc(100px + 15%);
-  margin-left: 0;
-  margin-right: 10px;
+  margin-left: 10%;
   height: 50px;
-
-  background-color: rgb(65, 118, 224);
-  box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  float: right;
+  background-color: rgb(8, 55, 116);
+  font-size: 80%;
+  font-weight: bolder;
+  color: white;
 }
 
 .textBox {
   width: calc(80px + 28%);
   border: solid;
   border-width: 1px;
+  font-size: 120%;
+  border-radius: 10px;
 }
 
 label {
   width: auto;
+  color: rgb(253, 249, 6);
+  font-weight: bolder;
 }

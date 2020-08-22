@@ -13,7 +13,10 @@ const NavigationBar = ({ location1 }) => {
     <div class="navBarContent">
       <button
         style={{
-          backgroundColor: location1 == "organizeEvent" ? "cyan" : "lightgray",
+          backgroundColor:
+            location1 == "organizeEvent"
+              ? "rgba(255, 252, 47, 0.836)"
+              : "rgba(255,255,255,0.75)",
         }}
         class="eventButton2"
         onClick={() => navigate("../organizeEvent", { replace: false })}
@@ -22,7 +25,10 @@ const NavigationBar = ({ location1 }) => {
       </button>
       <button
         style={{
-          backgroundColor: location1 == "searchEvents" ? "cyan" : "lightgray",
+          backgroundColor:
+            location1 == "searchEvents"
+              ? "rgba(255, 252, 47, 0.836)"
+              : "rgba(255,255,255,0.75)",
         }}
         class="eventButton2"
         onClick={() => {
@@ -36,7 +42,9 @@ const NavigationBar = ({ location1 }) => {
       <button
         style={{
           backgroundColor:
-            location1 == "subscribedEvents" ? "cyan" : "lightgray",
+            location1 == "subscribedEvents"
+              ? "rgba(255, 252, 47, 0.836)"
+              : "rgba(255,255,255,0.75)",
         }}
         class="eventButton2"
         onClick={() => {
@@ -49,7 +57,10 @@ const NavigationBar = ({ location1 }) => {
       </button>
       <button
         style={{
-          backgroundColor: location1 == "followedEvents" ? "cyan" : "lightgray",
+          backgroundColor:
+            location1 == "followedEvents"
+              ? "rgba(255, 252, 47, 0.836)"
+              : "rgba(255,255,255,0.75)",
         }}
         class="eventButton2"
         onClick={() => {
@@ -61,7 +72,9 @@ const NavigationBar = ({ location1 }) => {
       <button
         style={{
           backgroundColor:
-            location1 == "organizedEvents" ? "cyan" : "lightgray",
+            location1 == "organizedEvents"
+              ? "rgba(255, 252, 47, 0.836)"
+              : "rgba(255,255,255,0.75)",
         }}
         class="eventButton2"
         onClick={() => {
@@ -73,7 +86,9 @@ const NavigationBar = ({ location1 }) => {
       <button
         style={{
           backgroundColor:
-            location1 == "recommendedEvents" ? "cyan" : "lightgray",
+            location1 == "recommendedEvents"
+              ? "rgba(255, 252, 47, 0.836)"
+              : "rgba(255,255,255,0.75)",
         }}
         class="eventButton2"
         onClick={() => {
