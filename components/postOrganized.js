@@ -29,9 +29,7 @@ class Post extends React.Component {
               src="https://icon-library.net/images/user-image-icon/user-image-icon-4.jpg"
             />
             <div />
-            <Link to={"/" + this.props.data.slug}>
-              <p>{this.props.data.eventInfo.organizer}</p>
-            </Link>
+            <p>{this.props.data.eventInfo.organizer}</p>
           </div>
           <br />
 

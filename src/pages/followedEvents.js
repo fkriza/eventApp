@@ -26,6 +26,7 @@ function Recommended(props) {
               time
               description
               category
+              organizer
             }
           }
         }
