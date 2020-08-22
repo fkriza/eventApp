@@ -1,13 +1,14 @@
 {
-  "slug": "eventParis",
-  "title": "Paris meet",
-  "img": "",
+  "slug": "concert",
+  "title": "Concert",
+  "img": "http://www.smashproductionsinc-us.com/wp-content/uploads/2013/08/concert-crowd-bluue1.jpg",
   "eventInfo": {
-    "organizer": "",
-    "dateAndTime": "",
-    "location": "",
-    "description": "",
-    "category": "Darts",
-    "comments": ["alo", "alo", "di si frane, dobar meet"]
+    "organizer": "ekrifra",
+    "date": "2020-08-12",
+    "time": "12:00",
+    "location": "Osijek",
+    "description": "Enjoy it!",
+    "category": "Music",
+    "comments": ["Who's playing?", "I'll be there", "di si frane, dobar meet"]
   }
 }

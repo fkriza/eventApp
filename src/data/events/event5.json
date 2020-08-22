@@ -1,0 +1,14 @@
+{
+  "slug": "movie",
+  "title": "Movie",
+  "img": "https://www.iconspng.com/images/movies/movies.jpg",
+  "eventInfo": {
+    "organizer": "vujela",
+    "date": "2020-08-11",
+    "time": "12:00",
+    "location": "Split",
+    "description": "I love movies",
+    "category": "Let's watch movies!",
+    "comments": ["I'll come", "I'll be there", "Kejo is coming too!"]
+  }
+}

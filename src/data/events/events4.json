@@ -1,0 +1,14 @@
+{
+  "slug": "coffee",
+  "title": "Coffee",
+  "img": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Coffee_time_%282410222127%29.jpg",
+  "eventInfo": {
+    "organizer": "vucjos",
+    "date": "2020-08-13",
+    "time": "12:00",
+    "location": "Split",
+    "description": "I love coffee!",
+    "category": "Social",
+    "comments": ["I'll come", "I'll be there", "Kejo is coming too!"]
+  }
+}

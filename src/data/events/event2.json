@@ -1,13 +1,14 @@
 {
-  "slug": "eventMadrid",
-  "title": "Madrid meet",
-  "img": "",
+  "slug": "BilliardsTournament",
+  "title": "Billiards tournament",
+  "img": "https://upload.wikimedia.org/wikipedia/commons/2/29/Billiards_and_snookers.jpg",
   "eventInfo": {
-    "organizer": "",
-    "dateAndTime": "das",
-    "location": "",
-    "description": "",
+    "organizer": "fkriza",
+    "date": "2020-08-11",
+    "time": "12:00",
+    "location": "Zagreb",
+    "description": "Play billiards",
     "category": "Sport",
-    "comments": ["alo", "alo"]
+    "comments": ["aol", "alo"]
   }
 }

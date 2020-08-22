@@ -21,9 +21,11 @@ function Recommended(props) {
             eventInfo {
               location
               comments
-              dateAndTime
+              date
+              time
               description
               category
+              organizer
             }
           }
         }

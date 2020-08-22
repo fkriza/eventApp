@@ -34,7 +34,8 @@ export const query = graphql`
           eventInfo {
             location
             comments
-            dateAndTime
+            date
+            time
             description
             category
           }

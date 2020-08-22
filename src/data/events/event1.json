@@ -1,13 +1,14 @@
 {
-  "slug": "eventTokyo",
-  "title": "Tokyo meet",
-  "img": "",
+  "slug": "dartsTournament",
+  "title": "Darts tournament",
+  "img": "https://www.sportilus.com/uploads/articles/pikado-ukratko-o-pravilima-9df02.jpg",
   "eventInfo": {
-    "organizer": "",
-    "dateAndTime": "",
-    "location": "",
-    "description": "",
+    "organizer": "fkriza",
+    "date": "2020-08-11",
+    "time": "12:00",
+    "location": "Split",
+    "description": "Darts tournament",
     "category": "Sport",
-    "comments": ["alo", "alo"]
+    "comments": ["This is awesome", "I can't play well"]
   }
 }

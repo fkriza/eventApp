@@ -29,32 +29,30 @@ class Post extends React.Component {
               src="https://icon-library.net/images/user-image-icon/user-image-icon-4.jpg"
             />
             <div />
-            <p>fkriza</p>
+            <p>{this.props.data.eventInfo.organizer}</p>
           </div>
           <br />
 
           <div class="postPictureContainer">
             <div class="dummy11"></div>
-            <img
-              class="postPicture"
-              src="https://www.sportilus.com/uploads/articles/pikado-ukratko-o-pravilima-9df02.jpg"
-            />
+            <img class="postPicture" src={this.props.data.img} />
             <div class="dummy12"></div>
           </div>
           <br />
           <div class="info">
             <div>
               <span class="labelInfo">Location: </span>
-              <span class="info1">
-                {this.props.data.eventInfo.location}Split
-              </span>
+              <span class="info1">{this.props.data.eventInfo.location}</span>
             </div>
             <br></br>
             <div>
-              <span class="labelInfo">Date and Time </span>
-              <span class="info1">
-                12:00 AM{this.props.data.eventInfo.dateAndTime}
-              </span>
+              <span class="labelInfo">Date: </span>
+              <span class="info1">{this.props.data.eventInfo.date}</span>
+            </div>
+            <br></br>
+            <div>
+              <span class="labelInfo">Time: </span>
+              <span class="info1">{this.props.data.eventInfo.time}</span>
             </div>
             <br></br>
             <div>
@@ -64,9 +62,7 @@ class Post extends React.Component {
             <br></br>
             <div>
               <span class="labelInfo">Description </span>
-              <span class="info1">
-                This is my first{this.props.data.eventInfo.description}
-              </span>
+              <span class="info1">{this.props.data.eventInfo.description}</span>
             </div>
             <br />
 

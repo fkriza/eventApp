@@ -21,9 +21,11 @@ const Events = () => {
             eventInfo {
               location
               comments
-              dateAndTime
+              date
+              time
               description
               category
+              organizer
             }
           }
         }
@@ -181,6 +183,7 @@ class SearchEvent extends React.Component {
               //     }
               //   }
               //
+              console.log(this.state.date)
               console.log("begin", this.info)
               console.log(this.props.data.allEventsJson.edges)
               let postOrg = []
@@ -195,6 +198,7 @@ class SearchEvent extends React.Component {
                     this.info[i].node.eventInfo.organizer ==
                     this.state.organizer
                   ) {
+                    console.log(this.info[i].node.eventInfo.organizer)
                     postOrg.push(this.info[i])
                   }
                 }
@@ -221,6 +225,11 @@ class SearchEvent extends React.Component {
 
               if (this.state.date != "")
                 for (let i = 0; i < postTime.length; i++) {
+                  console.log(
+                    "ppair",
+                    postTime[i].node.eventInfo.date,
+                    this.state.date
+                  )
                   if (postTime[i].node.eventInfo.date == this.state.date) {
                     postDate.push(this.info[i])
                   }
@@ -232,9 +241,13 @@ class SearchEvent extends React.Component {
                   console.log(postDate[i].node.eventInfo.category)
                   console.log(this.state.category)
                   if (postDate[i].node.eventInfo.category == this.state.tags) {
+                    console.log("usa")
                     postCategory.push(postDate[i])
                   }
                 }
+              else
+                postCategory =
+                  postCategory.length == 0 ? postDate : postCategory
               console.log(postCategory)
               this.setState({ postData: postCategory })
 
