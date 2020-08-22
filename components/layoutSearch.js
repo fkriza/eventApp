@@ -25,7 +25,6 @@ function Layout({ children, location, isUser, userData }) {
         />
         <div> </div>
         <div class="children">{children}</div>
-        <div class="dummy000" />
       </div>
     </div>
   )

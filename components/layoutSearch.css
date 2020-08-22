@@ -28,5 +28,6 @@
 @media only screen and (max-width: 400px) {
   .lContent1 {
     margin-left: 3%;
+    grid-template-columns: calc(60px + 15%) 20fr 1fr;
   }
 }
