@@ -19,6 +19,22 @@
   font-family: "Lato", sans-serif;
 }
 
-.eventButton2 :hover {
-  margin-left: 10px;
+#subscribed:hover {
+  margin-left: 10%;
+}
+
+#recommended11:hover {
+  margin-left: 5%;
+}
+#organize:hover {
+  margin-left: 10%;
+}
+#organized:hover {
+  margin-left: 10%;
+}
+#followed:hover {
+  margin-left: 10%;
+}
+#search:hover {
+  margin-left: 10%;
 }

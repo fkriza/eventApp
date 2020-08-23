@@ -19,6 +19,7 @@ const NavigationBar = ({ location1 }) => {
               : "rgba(255,255,255,0.75)",
         }}
         class="eventButton2"
+        id="organize"
         onClick={() => navigate("../organizeEvent", { replace: false })}
       >
         <p class=".lato"> Organize an Event</p>
@@ -31,6 +32,7 @@ const NavigationBar = ({ location1 }) => {
               : "rgba(255,255,255,0.75)",
         }}
         class="eventButton2"
+        id="search"
         onClick={() => {
           navigate("../searchEvents", {
             replace: false,
@@ -47,6 +49,7 @@ const NavigationBar = ({ location1 }) => {
               : "rgba(255,255,255,0.75)",
         }}
         class="eventButton2"
+        id="subscribed"
         onClick={() => {
           navigate("../subscribedEvents", {
             replace: false,
@@ -63,6 +66,7 @@ const NavigationBar = ({ location1 }) => {
               : "rgba(255,255,255,0.75)",
         }}
         class="eventButton2"
+        id="followed"
         onClick={() => {
           navigate("../followedEvents", { replace: false })
         }}
@@ -77,6 +81,7 @@ const NavigationBar = ({ location1 }) => {
               : "rgba(255,255,255,0.75)",
         }}
         class="eventButton2"
+        id="organized"
         onClick={() => {
           navigate("../organizedEvents", { replace: false })
         }}
@@ -91,6 +96,7 @@ const NavigationBar = ({ location1 }) => {
               : "rgba(255,255,255,0.75)",
         }}
         class="eventButton2"
+        id="recommended11"
         onClick={() => {
           navigate("../recommended", {
             replace: false,
