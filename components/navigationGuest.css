@@ -15,6 +15,12 @@
   max-height: 54px;
   border-radius: 10px;
 }
+@media only screen and (max-width: 420px) {
+  .eventButton {
+    width: 100px;
+    font-size: 12px;
+  }
+}
 .lato {
   font-family: "Lato", sans-serif;
 }
