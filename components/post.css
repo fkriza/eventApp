@@ -6,6 +6,7 @@
   border-style: solid;
   border-width: thin;
   border-color: lightgray;
+  border-radius: 20px;
 }
 .postInfo {
   justify-self: center;
@@ -85,10 +86,10 @@
 }
 @media only screen and (max-width: 400px) {
   .buttons {
-    width: 160px;
+    width: 130px;
   }
   .postButton {
-    font-size: 12px;
+    font-size: 10px;
   }
   .labelInfo {
     font-size: 12px;
