@@ -13,6 +13,11 @@
 p {
   font-weight: bold;
 }
+.line {
+  width: 80%;
+  align-self: center;
+  color: gray;
+}
 .postPictureContainer {
   display: grid;
   grid-template-columns: 1fr 8fr 1fr;

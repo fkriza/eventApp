@@ -32,7 +32,8 @@ class Post extends React.Component {
             <p>{this.props.data.eventInfo.organizer}</p>
           </div>
           <br />
-
+          <hr class="line" />
+          <br />
           <div class="postPictureContainer">
             <div class="dummy11"></div>
             <img class="postPicture" src={this.props.data.img} />

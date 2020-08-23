@@ -10,7 +10,7 @@
   margin: 0;
   font-size: small;
   background-color: rgba(255, 252, 47, 0.836);
-  width: 70%;
+  width: 120px;
   height: 100px;
   max-height: 54px;
   border-radius: 10px;
@@ -31,7 +31,7 @@
 }
 
 #recommended11:hover {
-  margin-left: 5%;
+  margin-left: 10%;
 }
 #organize:hover {
   margin-left: 10%;
