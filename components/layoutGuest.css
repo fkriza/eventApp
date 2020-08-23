@@ -12,6 +12,7 @@
 .children {
   display: grid;
   grid-gap: 1%;
+  margin-left: 15%;
 }
 
 .layDummy {

@@ -237,7 +237,10 @@ class SearchEvent extends React.Component {
                     postCategory.push(postDate[i])
                   }
                 }
-              console.log(postCategory)
+              else
+                postCategory =
+                  postCategory.length == 0 ? postDate : postCategory
+              console.log(postCategory, postDate)
               this.setState({ postData: postCategory })
 
               //postCategory = postCategory.length == 0 ? postDate : postCategory
@@ -249,6 +252,7 @@ class SearchEvent extends React.Component {
           {this.state.postData.map(user => (
             <Post data={user.node} />
           ))}
+          <br />
         </div>
       </Layout>
     )

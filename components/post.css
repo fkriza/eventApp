@@ -84,9 +84,12 @@
     margin-left: 6%;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 454px) {
+}
+@media only screen and (max-width: 454px) {
   .buttons {
     width: 130px;
+    margin-top: 20px;
   }
   .postButton {
     font-size: 10px;

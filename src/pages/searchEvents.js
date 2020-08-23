@@ -260,6 +260,7 @@ class SearchEvent extends React.Component {
           {this.state.postData.map(user => (
             <Post data={user.node} />
           ))}
+          <br/>
         </div>
       </Layout>
     )

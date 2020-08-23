@@ -1,20 +1,22 @@
 .commentContainer {
-  margin-left: 20%;
-  width: 60%;
+  margin-left: 5%;
+  width: 80%;
   border-style: solid;
   border-color: lightgray;
   border-width: thin;
+  background-color: white;
 }
 
 .commentTitle {
   margin-left: 5%;
-  color: rgb(222, 243, 32);
+  color: rgb(243, 39, 32);
   font-weight: bolder;
 }
 
 .commentator {
   font-weight: bold;
   font-style: italic;
+  color: rgb(129, 120, 120);
 }
 
 .commentOne {

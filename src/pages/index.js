@@ -11,6 +11,10 @@ import LogIn from "./logIn"
 function FirstPage() {
   return (
     <div class="border">
+      <h1 class="landingMessage">
+        This is a place to share, attend and track events. Join us now and
+        post/attend an event!
+      </h1>
       <div class="content">
         <p class="indexTitle">Event Handler</p>
 

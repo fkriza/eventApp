@@ -46,12 +46,17 @@ function Button(user) {
               navigate("recommended", {
                 replace: false,
               })
+            } else if (user.username == userData[i].username) {
+              alert("Error: Wrong password")
+              flag = true
             }
           }
-          if (!flag) alert("Error: Wrong username or password")
+          if (!flag)
+            alert("Error: That username does not exist in our database.")
         }}
       >
-        LOG IN
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LOG
+        IN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </button>
     </div>
   )
